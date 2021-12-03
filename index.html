@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet"  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <div class="testimonialBox">
+                       <img src="https://swiperjs.com/demos/images/nature-1.jpg" class="quote" />
+                  </div>
+                  <div class="content">
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, aspernatur eos. Aut, totam aliquid voluptates dolores rem sequi corporis necessitatibus ea ad incidunt nulla officiis vitae molestiae voluptatum nam nobis.</p>
+                  </div>
+               
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonialBox">
+                     <img src="https://swiperjs.com/demos/images/nature-2.jpg" class="quote" />
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, aspernatur eos. Aut, totam aliquid voluptates dolores rem sequi corporis necessitatibus ea ad incidunt nulla officiis vitae molestiae voluptatum nam nobis.</p>
+                </div>
+                
+             
+            </div>
+            <div class="swiper-slide">
+                <div class="testimonialBox">
+                     <img src="https://swiperjs.com/demos/images/nature-3.jpg" class="quote" />
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, aspernatur eos. Aut, totam aliquid voluptates dolores rem sequi corporis necessitatibus ea ad incidunt nulla officiis vitae molestiae voluptatum nam nobis.</p>
+                </div>
+             
+            </div>
+
+            <div class="swiper-slide">
+                <div class="testimonialBox">
+                     <img src="https://swiperjs.com/demos/images/nature-4.jpg" class="quote" />
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, aspernatur eos. Aut, totam aliquid voluptates dolores rem sequi corporis necessitatibus ea ad incidunt nulla officiis vitae molestiae voluptatum nam nobis.</p>
+                </div>
+             
+            </div>
+
+            <div class="swiper-slide">
+                <div class="testimonialBox">
+                     <img src="https://swiperjs.com/demos/images/nature-5.jpg" class="quote" />
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, aspernatur eos. Aut, totam aliquid voluptates dolores rem sequi corporis necessitatibus ea ad incidunt nulla officiis vitae molestiae voluptatum nam nobis.</p>
+                </div>
+             
+            </div>
+
+            <div class="swiper-slide">
+                <div class="testimonialBox">
+                     <img src="https://swiperjs.com/demos/images/nature-6.jpg" class="quote" />
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, aspernatur eos. Aut, totam aliquid voluptates dolores rem sequi corporis necessitatibus ea ad incidunt nulla officiis vitae molestiae voluptatum nam nobis.</p>
+                </div>
+             
+            </div>
+
+            <div class="swiper-slide">
+                <div class="testimonialBox">
+                     <img src="https://swiperjs.com/demos/images/nature-7.jpg" class="quote" />
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, aspernatur eos. Aut, totam aliquid voluptates dolores rem sequi corporis necessitatibus ea ad incidunt nulla officiis vitae molestiae voluptatum nam nobis.</p>
+                </div>
+             
+            </div>
+             
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+      
+
+    </section>
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
+    
+</body>
+</html>
